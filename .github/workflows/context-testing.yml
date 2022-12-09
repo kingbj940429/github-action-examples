@@ -1,6 +1,6 @@
 name: Context testing
 
-run-name: Context Testing
+run-name: Context Testing ${{ github.event_name }}
 
 on: [push, pull_request]
 
